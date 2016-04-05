@@ -1,0 +1,11 @@
+.jumbotron{
+    background: url("../images/DSC01685.JPG") center center;
+    background-size: cover;
+    height: 405px;
+    color: white;
+    text-align: inherit;   
+}
+
+.jumbotron small{
+    color: #d5d5d5;
+}

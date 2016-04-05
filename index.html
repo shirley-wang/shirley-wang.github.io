@@ -12,86 +12,90 @@
     <title>Shirley Wang</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+
 </head>
 <!-- NAVBAR
 ================================================== -->
 
 <body>
-    <div class="container">
-
-        <!-- Static navbar -->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Shirley Wang</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-
-                </div>
-                <!--/.nav-collapse -->
+    <!-- fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Shirley Wang</a>
             </div>
-            <!--/.container-fluid -->
-        </nav>
-
-        <!-- Main component for a primary marketing message or call to action -->
-        <div class="about" id="about">
-            <img class="img-circle" src="images/DSC01083.JPG" alt="Generic placeholder image" width="200" height="200">
-            <h2>About</h2>
-            <p>Hi, I am Shirley Wang! I graduated from Iowa State University with a bachelor of science degree in computer science. Being a new graduate, I know and have experience with Android mobile development, Web Development, Windows desktop application development, Web Service Development(API), and some program management experiences. I learned most of my technical skills through school, internships, hackathons, and as well as online resources and some side projects that I wanted to do on my own. </p>
-            <p><a class="btn btn-default" href="#" role="button">View My Resume &raquo;</a></p>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="fa fa-home"
+                         aria-hidden="true"></span> Home</a></li>
+                    <li><a href="#about"><span class="fa fa-info-circle"
+                         aria-hidden="true"></span> About</a></li>
+                    <li><a href="#projects"><span class="fa fa-pencil-square-o"
+                         aria-hidden="true"></span> Projects</a></li>
+                    <li><a href="#contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
+                </ul>
+            </div>
+            <!-- navbar div -->
         </div>
-        <!-- /.about -->
-        
-        <!-- START THE FEATURETTES -->
+        <!-- container div -->
+    </nav>
+    <div class="jumbotron">
+        <p style="padding:145px"></p>
+        <div class="col-xs-12">
+            <h4>Hello, there! I'm Shirley, a software developer.&nbsp; <small>I enjoy creating, developing, learning, photographing, and cooking!</smal></h4>
+        </div>
+    </div>
 
-        <hr class="featurette-divider">
-        <h2>Projects</h2>
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">Foodie</h2>
-                <p class="lead">A food deliver web app that helps users to choose what they want to eat for the day.</p>
-                <p>Technology used
-                    <br> HTML, CSS, BootStrap, PHP, </p>
-            </div>
-            <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="images/foodieDemo.jpg" alt="Generic placeholder image">
+    <div class="container-fluid">
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="#" class="thumbnail">
+                <img src="..." alt="...">
+            </a>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="contact" class="row-footer">
+        <div class="container">
+            <div>
+                <a class="btn-lg" href="https://www.facebook.com/shirley.xuanliwang"><i class="fa fa-facebook"></i></a>
+                <a class="btn-lg" href="https://www.linkedin.com/in/shirley-wang-88ab8974"><i class="fa fa-linkedin"></i></a>
+                <a class="btn-lg" href="https://github.com/shirley-wang"><i class="fa fa-github"></i></a>
+                <a class="btn-lg" href="https://www.instagram.com/shirleyxuanliwang/"><i class="fa fa-instagram"></i></a>
+                <a class="btn-lg" href="mailto:xuanli512@gmail.com"><i class="fa fa-envelope"></i></a>
             </div>
         </div>
-
-        <hr class="featurette-divider">
-
+    </footer>
 
 
-        <!-- /END THE FEATURETTES -->
 
-
-        <!-- FOOTER -->
-        <footer id="contact">
-            <div class="social-accounts" data-content-field="connected-accounts">
-                <a href="https://www.linkedin.com/in/shirley-wang-88ab8974" target="_blank" class="social-linkedin"></a>
-                
-                <a href="https://www.facebook.com/shirley.xuanliwang" target="_blank" class="social-facebook"></a>
-            </div>
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2016 Shirley Wang. All rights reserved.</p>
-        </footer>
-    </div>
-    </div>
     <!-- /.container -->
 
 
@@ -99,10 +103,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-    </script>
-    <script src="js/bootstrap.min.js"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="js/holder.min.js"></script>
 </body>
