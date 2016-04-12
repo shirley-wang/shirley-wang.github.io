@@ -1,0 +1,18 @@
+.jumbotron{
+    background: url("../images/jumbotron.JPG") center center;
+    background-size: cover;
+    height: 405px;
+    color: white;
+    text-align: inherit;   
+}
+
+.jumbotron small{
+    color: #d5d5d5;
+}
+
+#projects img
+{
+    
+    width:  inherit;
+    height: inherit;
+}

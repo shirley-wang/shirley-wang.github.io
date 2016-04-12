@@ -1,11 +1,14 @@
-.jumbotron{
-    background: url("../images/DSC01685.JPG") center center;
+#orderItems
+{
+    background: url("../img/orderBG.jpg") center center;
+    height: 700px;
     background-size: cover;
-    height: 405px;
     color: white;
-    text-align: inherit;   
 }
 
-.jumbotron small{
-    color: #d5d5d5;
+#carousel img
+{
+    width:100%;
+    height:auto;
 }
+
